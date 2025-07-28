@@ -1,0 +1,159 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #0A2472;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+}
+
+header {
+  padding: 2rem 0rem;
+  background-color: #0A2472;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2.1rem;
+  margin: 1rem auto;
+}
+
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #0A2472;
+}
+.site-header {
+  position: sticky;
+  top: 0;
+  background-color: #F0F4FF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 120px;
+  width: auto;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0A2472;
+  transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: #209d99;
+}
+main img {
+  display: block;
+  margin: 1rem auto -0.5rem auto; /* Top, Right, Bottom, Left */
+}
+main p:last-of-type {
+  margin-top: -0.5rem;
+}
+.separator {
+  border: none;
+  border-top: 6px solid #F0F4FF;
+  margin: 3rem auto;
+  width: 80%;
+}
+
+.centered-left-list {
+  /* max-width: 600px; /* or whatever width */ */
+  margin: 0 auto; /* center block horizontally */
+  text-align: left; /* left-align text inside */
+  list-style-position: inside; /* bullets inside the content box */
+  margin-top: 3rem; /* adjust if needed */
+  margin-bottom: 7rem; /* adjust if needed */
+  padding-left: 0; /* adjust if needed */
+}
+
+/* Font weight classes */
+.regular {
+  font-weight: 300;
+  font-size: 1.7rem;
+  /* margin: rem auto; */
+}
+
+.medium {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.extralight-text {
+  font-weight: 200;
+  font-size: 2.1rem;
+  margin: 1rem auto;
+}
+
+.thin-text {
+  font-weight: 150;
+}
+  
+.two-column-section {
+  display: flex;
+  justify-content: left;
+  gap: 2rem;
+  padding: 1rem 1rem;
+  /* background styles removed */
+}
+
+.column {
+  flex: 1;
+  max-width: 550px;
+}
+
+
+.cleaning-list {
+  font-weight: 300;
+  font-size: 1.6rem;
+  /* list-style-position: inside; */
+  text-align: left;
+}
+.below-columns-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 0 auto; /* spacing above the image */
+}
+  
+.below-col-img {
+  /* display: block; */
+  max-width: 120%;
+  height: auto;
+  margin: 0 auto 0 auto; /* spacing above the image */
+}
+
+
