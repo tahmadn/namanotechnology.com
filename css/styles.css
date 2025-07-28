@@ -172,7 +172,7 @@ main p:last-of-type {
   }
 
   p, .extralight-text, .regular, .medium, .bold, .thin-text {
-    font-size: 1rem !important;
+    font-size: 1.4rem !important;
   }
 
   .site-header {
@@ -209,13 +209,13 @@ main p:last-of-type {
   }
 
   footer p {
-    font-size: .6rem;
+    font-size: 1rem;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .extralight-text {
     font-size: 1rem; /* was 1.8rem or larger */
-    margin: 1rem 1rem;
+    margin: 1rem 0.3rem;
   }
 
   .about-intro p,
@@ -224,8 +224,8 @@ main p:last-of-type {
   .founder-note blockquote,
   .differentiators p,
   .differentiators h2 {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
     font-size: 1rem;
     line-height: 1.5;
     text-align: left;
