@@ -212,5 +212,28 @@ main p:last-of-type {
     font-size: 1rem;
   }
 }
+@media (max-width: 600px) {
+  .extralight-text {
+    font-size: 1.4rem; /* was 1.8rem or larger */
+    margin: 1rem 1rem;
+  }
+
+  .about-intro p,
+  .founder-note p,
+  .founder-note h2,
+  .founder-note blockquote,
+  .differentiators p,
+  .differentiators h2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  blockquote {
+    margin: 0 1rem;
+  }
+}
 
 
