@@ -30,7 +30,7 @@ p {
 
 footer {
   margin-top: 3rem;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #0A2472;
 }
 .site-header {
@@ -171,7 +171,7 @@ main p:last-of-type {
     font-size: 2rem;
   }
 
-  p, .extralight-text, .regular, .medium, .bold, .thin-text {
+  p .extralight-text, .regular, .medium, .bold, .thin-text {
     font-size: 1.4rem !important;
   }
 
