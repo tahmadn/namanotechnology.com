@@ -1,10 +1,11 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
   background-color: #ffffff;
   color: #0A2472;
   text-align: center;
   margin: 0;
   padding: 2rem;
+  line-height: 1.4;
 }
 
 header {
@@ -88,7 +89,7 @@ main p:last-of-type {
 }
 
 .centered-left-list {
-  /* max-width: 600px; /* or whatever width */ */
+/* max-width: 600px; or whatever width */
   margin: 0 auto; /* center block horizontally */
   text-align: left; /* left-align text inside */
   list-style-position: inside; /* bullets inside the content box */
@@ -146,7 +147,7 @@ main p:last-of-type {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0 auto 0 auto; /* spacing above the image */
+  margin: 0 auto; /* spacing above the image */
 }
   
 .below-col-img {
@@ -171,7 +172,7 @@ main p:last-of-type {
     font-size: 2rem;
   }
 
-  p .extralight-text, .regular, .medium, .bold, .thin-text {
+  .extralight-text, .regular, .medium, .bold, .thin-text {
     font-size: 1.4rem !important;
   }
 
