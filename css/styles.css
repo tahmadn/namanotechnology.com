@@ -215,6 +215,7 @@ main p:last-of-type {
 }
 @media (max-width: 768px) {
   .extralight-text {
+	text-align: left;
     font-size: 1.4rem; /* was 1.8rem or larger */
     margin: 1rem auto 1rem auto;
   }
