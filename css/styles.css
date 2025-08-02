@@ -229,12 +229,12 @@ main p:last-of-type {
     margin-right: auto;
     font-size: 1.4rem;
     line-height: 1rem;
-    text-align: justify;
+    text-align: left;
   }
 
   blockquote {
     margin: 1rem 1rem 1rem rem;
-    text-align: justify;
+    text-align: left;
   }
 }
 
