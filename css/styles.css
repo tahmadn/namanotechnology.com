@@ -213,10 +213,10 @@ main p:last-of-type {
     font-size: 1rem;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .extralight-text {
-    font-size: 1rem; /* was 1.8rem or larger */
-    margin: 1rem 0.3rem;
+    font-size: 1.4rem; /* was 1.8rem or larger */
+    margin: 1rem auto 1rem auto;
   }
 
   .about-intro p,
@@ -225,15 +225,16 @@ main p:last-of-type {
   .founder-note blockquote,
   .differentiators p,
   .differentiators h2 {
-    margin-left: 0.3rem;
-    margin-right: 0.3rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.4rem;
+    line-height: 1rem;
+    text-align: justify;
   }
 
   blockquote {
-    margin: 0 1rem;
+    margin: 1rem 1rem 1rem rem;
+    text-align: justify;
   }
 }
 
