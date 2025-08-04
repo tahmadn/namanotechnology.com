@@ -223,7 +223,9 @@ main p:last-of-type {
   }
  .anyone.extralight-text {
     font-size: 1rem !important;
-    line-height: 1.6rem !important;
+  }
+   .thisguy.extralight-text {
+    font-size: 1rem !important;
   }
   .founder-note h2,
   .differentiators h2 {
