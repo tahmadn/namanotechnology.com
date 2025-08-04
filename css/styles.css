@@ -162,6 +162,7 @@ main p:last-of-type {
 @media screen and (max-width: 768px) {
   body {
     padding: 1rem;
+    background-color: pink; /* test only */
   }
 
   h1 {
