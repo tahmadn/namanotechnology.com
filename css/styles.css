@@ -172,9 +172,9 @@ main p:last-of-type {
     font-size: 2rem;
   }
 
-  .extralight-text, .regular, .medium, .bold, .thin-text {
+ /*  .extralight-text, .regular, .medium, .bold, .thin-text {
     font-size: 1.4rem !important;
-  }
+  } */
 
   .site-header {
     flex-direction: column;
@@ -212,8 +212,8 @@ main p:last-of-type {
   footer p {
     font-size: 1rem;
   }
-}
-@media (max-width: 768px) {
+/* }
+@media (max-width: 768px) { */
   .extralight-text {
 	text-align: left;
     font-size: 1.4rem; /* was 1.8rem or larger */
