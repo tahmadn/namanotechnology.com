@@ -220,11 +220,7 @@ main p:last-of-type {
     margin: 1rem 1rem 1rem 0;
   }
 
-  .about-intro p,
-  .founder-note p,
   .founder-note h2,
-  .founder-note p,
-  .differentiators p,
   .differentiators h2 {
     margin-left: 1rem;
 	margin-top: 1rem;
@@ -235,6 +231,20 @@ main p:last-of-type {
   .differentiators p {
   margin-top: 1.5rem !important; /* adds vertical spacing between each paragraph */
   margin-bottom: 1.5rem !important;
+  font-size: 1.2rem !important;
+  line-height: 1.6rem !important;
+  }
+  .about-intro p {
+  margin-top: 1.5rem !important; /* adds vertical spacing between each paragraph */
+  margin-bottom: 1.5rem !important;
+  font-size: 1.2rem !important;
+  line-height: 1.6rem !important;
+  }
+  .founder-note p {
+  margin-top: 1.5rem !important; /* adds vertical spacing between each paragraph */
+  margin-bottom: 1.5rem !important;
+  font-size: 1.2rem !important;
+  line-height: 1.6rem !important;
   }
 
 /*    blockquote {
