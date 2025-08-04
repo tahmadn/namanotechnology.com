@@ -233,6 +233,10 @@ main p:last-of-type {
     line-height: 1.6rem;
     text-align: left;
   }
+  .differentiators p {
+  margin-top: 1.5rem !important; /* adds vertical spacing between each paragraph */
+  margin-bottom: 1.5rem !important;
+  }
 
 /*    blockquote {
     margin: 1rem 0 1rem 0;
