@@ -234,7 +234,7 @@ main p:last-of-type {
   }
 
    blockquote {
-    margin: 1rem 1rem 1rem rem;
+    /* margin: 1rem 1rem 1rem 1rem; */
     text-align: left;
   } 
 }
