@@ -233,10 +233,10 @@ main p:last-of-type {
     text-align: left;
   }
 
- /*   blockquote {
-    margin: 1rem 1rem 1rem 1rem;
+   blockquote {
+    margin: 1rem 0 1rem 0;
     text-align: left;
-  }  */
+  } 
 }
 
 
