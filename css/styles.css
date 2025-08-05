@@ -214,7 +214,7 @@ main p:last-of-type {
   }
 /* }
 @media (max-width: 768px) { */
-  .extralight-text p{
+  .extralight-text {
 	text-align: left;
     font-size: 1.2rem; /* was 1.8rem or larger */
 	margin-top: 1.5rem !important; /* adds vertical spacing between each paragraph */
@@ -222,17 +222,17 @@ main p:last-of-type {
     line-height: 1.6rem !important;
   }
   .anyone .extralight-text {
-   font-size: 1rem !important;
+   font-size: 1.2rem !important;
   }
 
   .thisguy .extralight-text {
-    font-size: 1rem !important;
+    font-size: 1.2rem !important;
   }
   .founder-note h2,
   .differentiators h2 {
     margin-left: 1rem;
 	margin-top: 1rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.6rem;
     text-align: left;
   }
