@@ -1,0 +1,175 @@
+/* ========== BASE STYLES ========== */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #0A2472;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 2rem 0;
+  background-color: #0A2472;
+  color: #ffffff;
+}
+
+/* Typography Classes */
+.extralight-text {
+  text-align: left;
+  font-size: 1.8rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6rem;
+}
+
+.regular {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.thin-text {
+  font-weight: 300;
+}
+
+/* ========== LAYOUT ========== */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 100px;
+}
+
+/* Column Section */
+.two-column-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 0 2rem;
+}
+
+.column {
+  flex: 1;
+  max-width: 48%;
+}
+
+.below-columns-img,
+.below-col-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 2rem 0;
+}
+
+/* Nice separator line */
+.separator {
+  border: none;
+  border-top: 2px solid #0A2472;
+  margin: 3rem auto;
+  width: 60%;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  background-color: #f4f4f4;
+  padding: 2rem;
+  color: #333;
+}
+
+footer p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+/* ========== RESPONSIVE STYLES FOR MOBILE ========== */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: flex-start;
+  }
+
+  .logo {
+    height: 80px;
+  }
+
+  .two-column-section {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .column {
+    max-width: 100%;
+  }
+
+  .below-columns-img,
+  .below-col-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0;
+  }
+
+  footer p {
+    font-size: 1rem;
+  }
+
+  /* Mobile override for extralight-text */
+  .extralight-text {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .about-intro p,
+  .founder-note p,
+  .differentiators p,
+  .founder-note h2,
+  .differentiators h2 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    text-align: left;
+  }
+}

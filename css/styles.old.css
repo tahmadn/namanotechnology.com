@@ -98,8 +98,7 @@ main p:last-of-type {
   padding-left: 0; /* adjust if needed */
 }
 
-/* Typography Classes */
-
+/* Font weight classes */
 .regular {
   font-weight: 300;
   font-size: 1.7rem;
@@ -173,18 +172,21 @@ main p:last-of-type {
     font-size: 2rem;
   }
 
+ /*  .extralight-text, .regular, .medium, .bold, .thin-text {
+    font-size: 1.4rem !important;
+  } */
+
   .site-header {
     flex-direction: column;
     align-items: flex-start;
     padding: 1rem;
   }
-  
+
   .navbar ul {
     flex-direction: column;
     gap: 0.75rem;
     align-items: flex-start;
   }
-
 
   .logo {
     height: 80px;
@@ -209,12 +211,15 @@ main p:last-of-type {
 
   footer p {
     font-size: 1rem;
-  } 
-
+  }
+/* }
+@media (max-width: 768px) { */
   .extralight-text {
-    font-size: 1.1rem;
-    line-height: 1.5rem;
-    margin: 1rem 0;
+	text-align: left;
+    font-size: 1.2rem; /* was 1.8rem or larger */
+	margin-top: 1.5rem !important; /* adds vertical spacing between each paragraph */
+    margin-bottom: 1.5rem !important;
+    line-height: 1.6rem !important;
   }
   .anyone .extralight-text {
    font-size: 1.2rem !important;
@@ -223,7 +228,7 @@ main p:last-of-type {
   .thisguy .extralight-text {
     font-size: 1.2rem !important;
   }
-  /* .founder-note h2,
+  .founder-note h2,
   .differentiators h2 {
     margin-left: 1rem;
 	margin-top: 1rem;
@@ -232,40 +237,28 @@ main p:last-of-type {
     text-align: left;
   }
   .differentiators p {
-  margin-top: 1.5rem !important; 
+  margin-top: 1.5rem !important; /* adds vertical spacing between each paragraph */
   margin-bottom: 1.5rem !important;
   font-size: 1.2rem !important;
   line-height: 1.6rem !important;
   }
   .about-intro p {
-  margin-top: 1.5rem !important; 
+  margin-top: 1.5rem !important; /* adds vertical spacing between each paragraph */
   margin-bottom: 1.5rem !important;
   font-size: 1.2rem !important;
   line-height: 1.6rem !important;
   }
   .founder-note p {
-  margin-top: 1.5rem !important; 
+  margin-top: 1.5rem !important; /* adds vertical spacing between each paragraph */
   margin-bottom: 1.5rem !important;
   font-size: 1.2rem !important;
   line-height: 1.6rem !important;
   }
-   */
-  
 
-
- 
-  .about-intro p,
-  .founder-note p,
-  .differentiators p,
-  .founder-note h2,
-  .differentiators h2 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-size: 1.3rem;
-    line-height: 1.6rem;
+/*    blockquote {
+    margin: 1rem 0 1rem 0;
     text-align: left;
-  } 
-
+  }  */
 }
 
 
