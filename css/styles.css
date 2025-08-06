@@ -215,6 +215,8 @@ main p:last-of-type {
     font-size: 1.1rem;
     line-height: 1.5rem;
     margin: 1rem 0;
+	text-align: left;
+	
   }
   .anyone .extralight-text {
    font-size: 1.2rem !important;
