@@ -232,6 +232,11 @@ main p:last-of-type {
   .thisguy .extralight-text {
     font-size: 1.2rem !important;
   }
+  
+  .maintext .extralight-text {
+   font-size: 1.2rem;
+   	text-align: center;
+  }
   /* .founder-note h2,
   .differentiators h2 {
     margin-left: 1rem;
