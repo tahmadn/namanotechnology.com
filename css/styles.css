@@ -251,20 +251,20 @@ main p:last-of-type {
   margin-bottom: 1.5rem !important;
   font-size: 1.2rem !important;
   line-height: 1.6rem !important;
-  }
+  } */
   .founder-note p {
-  margin-top: 1.5rem !important; 
-  margin-bottom: 1.5rem !important;
-  font-size: 1.2rem !important;
-  line-height: 1.6rem !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: left;
   }
-   */
+   
   
 
 
  
   .about-intro p,
-  .founder-note p,
   .differentiators p,
   .founder-note h2,
   .differentiators h2 {
