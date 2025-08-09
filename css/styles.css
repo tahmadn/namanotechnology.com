@@ -114,10 +114,17 @@ main p:last-of-type {
   font-weight: 700;
 }
 
-.extralight-text {
+/* .extralight-text {
   font-weight: 200;
   font-size: 2.1rem;
   margin: 1rem auto;
+} */
+
+.extralight-text {
+  font-weight: 200 !important;
+  font-size: 1.6rem 
+  margin: 1rem auto;
+  text-align: left;
 }
 
 .thin-text {
