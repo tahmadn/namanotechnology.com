@@ -269,8 +269,8 @@ main p:last-of-type {
   }
    
   .cleaning-list {
-  font-weight: 100;
-  font-size: 1.2rem;
+  font-weight: 150;
+  font-size: 1.1rem;
   /* list-style-position: inside; */
   text-align: left;
 }
