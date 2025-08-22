@@ -268,9 +268,12 @@ main p:last-of-type {
     text-align: left;
   }
    
-  
-
-
+  .cleaning-list {
+  font-weight: 100;
+  font-size: 1.2rem;
+  /* list-style-position: inside; */
+  text-align: left;
+}
  
   .about-intro p,
   .differentiators p,
