@@ -255,10 +255,12 @@ main p:last-of-type {
   /* list-style-position: inside; */
   text-align: left;
 }
- 
+  .founder-note .h2 {
+   font-size: 1rem;
+  }
+
   .about-intro p,
   .differentiators p,
-  .founder-note h2,
   .differentiators h2 {
     margin-left: 1rem;
     margin-right: 1rem;
