@@ -176,11 +176,11 @@ main p:last-of-type {
   }
 
   h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   h2 {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
   }
 
   .site-header {
@@ -250,7 +250,7 @@ main p:last-of-type {
   }
    
   .cleaning-list {
-  font-weight: 150;
+  font-weight: 200;
   font-size: 1.1rem;
   /* list-style-position: inside; */
   text-align: left;
