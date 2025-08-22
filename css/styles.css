@@ -176,11 +176,11 @@ main p:last-of-type {
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   .site-header {
@@ -240,26 +240,7 @@ main p:last-of-type {
    font-size: 1.2rem !important;
    	text-align: center !important;
   }
-  /* .founder-note h2,
-  .differentiators h2 {
-    margin-left: 1rem;
-	margin-top: 1rem;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
-    text-align: left;
-  }
-  .differentiators p {
-  margin-top: 1.5rem !important; 
-  margin-bottom: 1.5rem !important;
-  font-size: 1.2rem !important;
-  line-height: 1.6rem !important;
-  }
-  .about-intro p {
-  margin-top: 1.5rem !important; 
-  margin-bottom: 1.5rem !important;
-  font-size: 1.2rem !important;
-  line-height: 1.6rem !important;
-  } */
+ 
   .founder-note p {
     margin-left: 1rem;
     margin-right: 1rem;
