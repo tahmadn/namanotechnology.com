@@ -248,7 +248,7 @@ main p:last-of-type {
    	text-align: center !important;
   }
  
-  .founder-note p {
+  .founder-note p .bold{
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 1rem;
@@ -265,7 +265,7 @@ main p:last-of-type {
 }
   .founder-note h2 {
    font-size: 1.3rem !important;
-   font-weight: 250 !important;
+   font-weight: 320 !important;
    /* background-color: green; */
   }
 
