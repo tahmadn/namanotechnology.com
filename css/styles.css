@@ -167,6 +167,13 @@ main p:last-of-type {
   height: auto;
   margin: 0 auto 0 auto; /* spacing above the image */
 }
+  .founder-note .h2 {
+   font-size: 1rem;
+   margin: 2rem auto 0 2.5rem;
+   font-weight: 500;
+   font-size: 1.8rem;
+  }
+
 /* --- RESPONSIVE CSS TO ADD TO YOUR styles.css FILE --- */
 
 /* Mobile styles (phones & small tablets) */
@@ -256,7 +263,7 @@ main p:last-of-type {
   text-align: left;
 }
   .founder-note .h2 {
-   font-size: 1rem !important;
+   font-size: .5rem;
   }
 
   .about-intro p,
