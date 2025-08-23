@@ -167,11 +167,12 @@ main p:last-of-type {
   height: auto;
   margin: 0 auto 0 auto; /* spacing above the image */
 }
-  .founder-note .h2 {
-   font-size: 1rem;
+  .founder-note h2 {
+   font-size: 1.7rem;
    margin: 2rem auto 0 2.5rem;
-   font-weight: 500;
-   font-size: 1.8rem;
+   font-weight: 300;
+   text-align: left;
+   /* background-color: green; */
   }
 
 /* --- RESPONSIVE CSS TO ADD TO YOUR styles.css FILE --- */
