@@ -262,8 +262,10 @@ main p:last-of-type {
     margin-left: 2.2rem;
     margin-right: 2.2rem;
     font-size: 1.1rem;
+	font-weight: 200;
     /* line-height: 1.6rem; */
     text-align: left;
+	background-color: green;
   }
    
   .cleaning-list {
@@ -274,7 +276,7 @@ main p:last-of-type {
 }
   .founder-note h2 {
    font-size: 1.2rem !important;
-   font-weight: 250 !important;
+   font-weight: 300 !important;
    /* background-color: green; */
   }
   .differentiators h2 {
