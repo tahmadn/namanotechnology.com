@@ -251,10 +251,9 @@ main p:last-of-type {
   .bold {
     margin-left: 1rem;
     margin-right: 1rem;
-    font-size: 1rem;
+    font-size: .8rem;
     line-height: 1.6rem;
     text-align: left;
-	background-color: green;
   }
    
   .cleaning-list {
