@@ -277,6 +277,11 @@ main p:last-of-type {
    font-weight: 350 !important;
    /* background-color: green; */
   }
+  .differentiators h2 {
+   font-size: 1.2rem !important;
+   font-weight: 350 !important;
+   /* background-color: green; */
+  }
 
   .about-intro p,
   .differentiators p {
