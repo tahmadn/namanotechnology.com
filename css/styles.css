@@ -261,7 +261,7 @@ main p:last-of-type {
   .bold {
     margin-left: 2.2rem;
     margin-right: 2.2rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     /* line-height: 1.6rem; */
     text-align: left;
   }
@@ -273,8 +273,8 @@ main p:last-of-type {
   text-align: left;
 }
   .founder-note h2 {
-   font-size: 1.1rem !important;
-   font-weight: 200 !important;
+   font-size: 1.2rem !important;
+   font-weight: 250 !important;
    /* background-color: green; */
   }
   .differentiators h2 {
