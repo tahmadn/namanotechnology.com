@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Email from Namano Technology</title>
+  </head>
+  <body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #e6f0fa;">
+    <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #0A2472; padding: 0; margin: 0;">
+      <tr>
+        <td align="center">
+          <table width="600" cellpadding="0" cellspacing="0" style="background-color: #ffffff; border-radius: 6px; box-shadow: 0 2px 6px rgba(0,0,0,0.05);">
+            <!-- Header with Logo -->
+            <tr>
+              <td style="padding: 20px; text-align: center; background-color: #F0F4FF;">
+                <img src="https://tahmadn.github.io/namanotechnology.com/images/logo.png" alt="Namano Logo" style="max-width: 220px; height: auto;" />
+              </td>
+            </tr>
+
+            <!-- Body -->
+            <tr>
+              <td style="padding: 30px;">
+                <p> style="color: #007c7a;">Hi [First Name],</p>
+                <p>
+                  At <strong>Namano Technology</strong>, we help small businesses, law firms, and consultants clean, organize, and standardize their data—accurately and securely.
+                </p>
+
+                <!-- INSERTED IMAGE -->
+                <div style="text-align: center; margin: 20px 0;">
+                  <img src="https://tahmadn.github.io/namanotechnology.com/images/messy.png" alt="Messy vs Clean Data" style="max-width: 100%; border-radius: 6px;" />
+                </div>
+
+                <ul>
+                  <li>✅ Remove duplicates, blanks, outdated entries</li>
+                  <li>✅ Standardize names, dates, and addresses</li>
+                  <li>✅ Fix missing or mismatched data</li>
+                </ul>
+                <p>
+                  Want cleaner, more useful data? Let us help you get there.
+                </p>
+                <p>
+                  🔹 Visit: <a href="https://www.namanotechnology.com">namanotechnology.com</a><br />
+                  🔹 Or reply to this email to schedule a free consultation.
+                </p>
+                <p>Warm regards,<br />Tahseen Nasir<br />Founder – Namano Technology</p>
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td style="padding: 20px; font-size: 12px; text-align: center; color: #999999;">
+                © 2025 Namano Technology | Belwood, Ontario |
+                <a href="https://www.namanotechnology.com" style="color: #007c7a;">Visit Website</a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
