@@ -177,6 +177,7 @@ main p:last-of-type {
 /* --- RESPONSIVE CSS TO ADD TO YOUR styles.css FILE --- */
 
 /* Mobile styles (phones & small tablets) */
+
 @media screen and (max-width: 768px) {
   body {
     padding: 1rem;
@@ -184,17 +185,15 @@ main p:last-of-type {
 
   h1 {
     font-size: 2rem;
-	background-color: green;
   }
 
   h2 {
     font-size: 1.7rem;
-	background-color: green;
   }
 
   .site-header {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;   /* centers logo + nav horizontally */
     padding: 1rem;
   }
   
@@ -206,8 +205,8 @@ main p:last-of-type {
 
 
   .logo {
-    height: 80px;
-	align-items: center;
+    display: block;
+    margin: 0 auto;       /* ensures logo itself is centered */
   }
 
   .two-column-section {
@@ -256,11 +255,11 @@ main p:last-of-type {
   }
  
   .bold {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    font-size: .8rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: .7rem;
     line-height: 1.6rem;
-    text-align: left;
+    text-align: justify;
   }
    
   .cleaning-list {
