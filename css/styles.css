@@ -259,11 +259,11 @@ main p:last-of-type {
   }
  
   .bold {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 2.2rem;
+    margin-right: 2.2rem;
     font-size: .7rem;
-    line-height: 1.6rem;
-    text-align: justify;
+    /* line-height: 1.6rem; */
+    text-align: left;
   }
    
   .cleaning-list {
