@@ -261,7 +261,7 @@ main p:last-of-type {
   .bold {
     margin-left: 2.2rem;
     margin-right: 2.2rem;
-    font-size: .7rem;
+    font-size: 1.2rem;
     /* line-height: 1.6rem; */
     text-align: left;
   }
