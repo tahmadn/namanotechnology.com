@@ -248,9 +248,9 @@ main p:last-of-type {
    	text-align: center !important;
   }
   
-  header p {
+  header .extralight-text {
     text-align: center !important;
-  } 
+  }
  
   .bold {
     margin-left: 1rem;
