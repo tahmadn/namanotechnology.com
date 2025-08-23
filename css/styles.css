@@ -279,8 +279,8 @@ main p:last-of-type {
   }
 
   .about-intro p,
-  .differentiators p,
-  .differentiators h2 {
+  .differentiators p {
+  /* .differentiators h2 { */
     margin-left: 1rem;
     margin-right: 1rem;
     font-size: 1.3rem;
