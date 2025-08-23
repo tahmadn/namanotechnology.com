@@ -242,7 +242,7 @@ main p:last-of-type {
   .thisguy .extralight-text {
     font-size: 1.2rem !important;
   }
-  .bannertext .extralight-text {
+  .bannertext extralight-text {
     text-align: center !important;
   }
   .maintext .extralight-text {
