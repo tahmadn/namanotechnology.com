@@ -184,10 +184,12 @@ main p:last-of-type {
 
   h1 {
     font-size: 2rem;
+	background-color: green;
   }
 
   h2 {
     font-size: 1.7rem;
+	background-color: green;
   }
 
   .site-header {
@@ -205,6 +207,7 @@ main p:last-of-type {
 
   .logo {
     height: 80px;
+	align-items: center;
   }
 
   .two-column-section {
